@@ -58,7 +58,20 @@ img {
 .notifications {
 	background-position: 0 -238px;
 }
-
+.lock {
+	background-position: 0 -859px;
+	height: 15px;
+	margin-left: 10px;
+	border-left: 1px solid #444;
+}
+.down-arrow {
+	background-position: 0 -825px;
+	height: 16px;
+}
+.spacer {
+	line-height: 24px;
+	margin: 0 10px;
+}
 
 
 
