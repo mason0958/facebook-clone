@@ -4,6 +4,7 @@
 #header {
 	background-color: #3B5998;
 	overflow: hidden;
+	height: 41px;
 }
 #header-inner {
 	max-width: 900px;
@@ -24,16 +25,26 @@
 	background-image: url('fb_sprite.png');
 	background-size: 26px 905px;
 	background-position: 0 -163px;
+	position: relative;
+	top: 9px;
 
 }
 #fb-logo, #fb-search {
 	float: left;
-	margin-left: 30px;
-	
+	margin-left: 30px;	
+}
+#fb-search {
+	margin-top: 4px;
+}
+#fb-search input {
+	border-radius: 0px;
+	border: none;
+	height: 20px;
+	position: relative;
+	bottom: 2px;
 }
 #fb-logo input {
-	border-radius: 5px;
-	width: 200px;
+	width: 400px;
 }
 #small-avatar {
 	height: 24px;
@@ -81,7 +92,7 @@ img {
 
 }
 #big-photo {
-	max-height: 350px;
+	max-height: 190px;
 	overflow: hidden;
 }
 #big-photo img{
@@ -90,14 +101,19 @@ img {
 #big-avatar {
 	float: left;
 	height: 150px;
+	position: relative;
+	bottom: 125px;
+	left: 15px;
 
 }
 #big-avatar img {
 	width: 150px;
-	position: relative;
-	bottom: 125px;
-	left: 15px;
 	z-index: 1;
+}
+#big-avatar-inner {
+	padding: 4px 4px 4px 4px;
+	background-color: white;
+	height: 140px;
 }
 #avatar-name {
 	float: left;
@@ -117,24 +133,33 @@ img {
 	width: 100%;
 	max-width: 900px;
 	position: absolute;
+	background-color: white;
 
 }
 .cover-menu-item {
-	border: 2px;
-	border-color: black;
+	border: 1px solid lightgray;
+	border-top: none;
 	padding-left: 10px;
 	padding-right: 10px;
 	position: relative;
-}
+	height: 40px;
+	background-color: white;
+	margin-left: -3px;
+	margin-right: -3px;
+	font-family: arial;
+	color: #3B5998;
+	font-weight: 600;
+	font-size: 12px;
+	}
 #cover-photo-right {
 
 }
 #cover-menu-inner {
-	margin-left: 100px;
- 	background-color: pink;
- 	width: 50%;
- 	height: 20px;
-
+	margin-left: 180px;
+	background-color: white;
+}
+html {
+	background-color: lightgrey;
 }
 
 
