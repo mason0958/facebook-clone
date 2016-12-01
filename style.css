@@ -15,9 +15,27 @@
 }
 #right-header {
 	float: right;
+	position: relative;
+	top: 9px;
 }
+#home-link a{
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+	font-size: 12px;
+	position: relative;
+	top: 4px;
+	margin-right: 14px;
+}
+.spacer {
+
+}
+
 #right-header div {
 	float: left;
+}
+#avatar-spacer {
+	background-color: #3B5998;
 }
 #fb-logo {
 	height: 24px;
@@ -39,9 +57,9 @@
 #fb-search input {
 	border-radius: 0px;
 	border: none;
-	height: 20px;
+	height: 22px;
 	position: relative;
-	bottom: 2px;
+	bottom: 4px;
 }
 #fb-logo input {
 	width: 400px;
@@ -58,6 +76,10 @@ img {
 	width: 24px;
 	background-image: url("fb_sprite.png");
 	background-size: 26px 905px;
+	margin-left: 6px;
+}
+.social-icon .friends {
+
 }
 .friends {
 	background-position: 0 -188px;
@@ -74,6 +96,8 @@ img {
 	height: 15px;
 	margin-left: 10px;
 	border-left: 1px solid #444;
+	position: relative;
+	top: 4px;
 }
 .down-arrow {
 	background-position: 0 -825px;
@@ -108,7 +132,7 @@ img {
 }
 #big-avatar img {
 	width: 150px;
-	z-index: 1;
+	z-index: 2;
 }
 #big-avatar-inner {
 	padding: 4px 4px 4px 4px;
@@ -117,12 +141,22 @@ img {
 }
 #avatar-name {
 	float: left;
+}
+#avatar-name a {
+	color:white;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 12px;
 	position: relative;
-	bottom: 45px;
-	left: 40px;
+	top: 4px;
+	margin-left: 2px;
+}
+#avatar-name-big {
 	font-size: 28px;
+	color: white;
+	position: relative;
+	left: 30px;
 	font-family: sans-serif;
-	font-weight: 550;
 }
 #cover-buttons {
 	float: right;
@@ -152,7 +186,8 @@ img {
 	font-size: 12px;
 	}
 #cover-photo-right {
-
+	position: relative;
+	bottom: 30px;
 }
 #cover-menu-inner {
 	margin-left: 180px;
@@ -161,6 +196,7 @@ img {
 html {
 	background-color: lightgrey;
 }
+
 
 
 
