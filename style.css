@@ -10,7 +10,7 @@
 	margin: auto;
 }
 #left-header {
-
+	
 }
 #right-header {
 	float: right;
@@ -28,7 +28,7 @@
 }
 #fb-logo, #fb-search {
 	float: left;
-	margin-left: 10px;
+	margin-left: 30px;
 	
 }
 #fb-logo input {
@@ -72,8 +72,70 @@ img {
 	line-height: 24px;
 	margin: 0 10px;
 }
+#cover-photo-wrapper {
+	max-width: 900px;
+	margin: auto;
+	width: 100%;
+}
+#cover-photo-lower {
 
+}
+#big-photo {
+	max-height: 350px;
+	overflow: hidden;
+}
+#big-photo img{
+	width: 100%;
+}
+#big-avatar {
+	float: left;
+	height: 150px;
 
+}
+#big-avatar img {
+	width: 150px;
+	position: relative;
+	bottom: 125px;
+	left: 15px;
+	z-index: 1;
+}
+#avatar-name {
+	float: left;
+	position: relative;
+	bottom: 45px;
+	left: 40px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: 550;
+}
+#cover-buttons {
+	float: right;
+}
+#cover-menu {
+	float: left;
+	background-color: lightgrey;
+	width: 100%;
+	max-width: 900px;
+	position: absolute;
+
+}
+.cover-menu-item {
+	border: 2px;
+	border-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+#cover-photo-right {
+
+}
+#cover-menu-inner {
+	margin-left: 100px;
+ 	background-color: pink;
+ 	width: 50%;
+ 	height: 20px;
+
+}
 
 
 
